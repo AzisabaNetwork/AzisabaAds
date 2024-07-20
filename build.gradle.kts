@@ -24,3 +24,9 @@ dependencies {
     }
     compileOnly("net.azisaba:LifeCore:6.12.1")
 }
+
+tasks {
+    compileJava {
+        options.encoding = "UTF-8"
+    }
+}
