@@ -47,4 +47,15 @@ public final class Advertisement {
     public void setImpressions(int impressions) {
         this.impressions = impressions;
     }
+
+    @Override
+    public String toString() {
+        return "Advertisement{" +
+                "id=" + id +
+                ", owner=" + owner +
+                ", message='" + message + '\'' +
+                ", expiresAt=" + expiresAt +
+                ", impressions=" + impressions +
+                '}';
+    }
 }

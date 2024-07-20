@@ -1,5 +1,5 @@
 name: AzisabaAds
-version: 1.0
+version: 1.0.1
 main: net.azisaba.azisabaads.AzisabaAds
 api-version: 1.13
 commands:
