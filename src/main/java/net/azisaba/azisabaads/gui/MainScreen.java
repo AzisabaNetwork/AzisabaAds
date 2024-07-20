@@ -35,6 +35,7 @@ public class MainScreen implements InventoryHolder {
             if (admin || advertisement.getOwner().equals(player.getUniqueId())) {
                 List<String> lore = new ArrayList<>();
                 lore.add(ChatColor.WHITE + ChatColor.translateAlternateColorCodes('&', advertisement.getMessage()));
+                lore.add(ChatColor.YELLOW + "広告主: " + Bukkit.getOfflinePlayer(advertisement.getOwner()).getName());
                 lore.add(ChatColor.YELLOW + "期限: " + FORMAT.format(advertisement.getExpiresAt()));
                 lore.add(ChatColor.YELLOW + "プレイヤーが見た回数: " + advertisement.getImpressions());
                 if (admin) {
