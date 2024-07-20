@@ -1,0 +1,11 @@
+name: AzisabaAds
+version: 1.0
+main: net.azisaba.azisabaads.AzisabaAds
+api-version: 1.13
+commands:
+  ads:
+    aliases: [ad]
+    permission: azisabaads.command
+depend:
+  - Vault
+  - LifeCore
